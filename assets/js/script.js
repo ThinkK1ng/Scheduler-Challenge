@@ -1,5 +1,5 @@
-// Display's today's day, date, and time.
-var currentDate = moment().format('dddd, MMM Do YYYY, h:mm:ss a');
+// Display's today's day and date.
+var currentDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(currentDate);
 
 $(document).ready(function () {
